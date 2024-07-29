@@ -1,0 +1,92 @@
+.body{
+    background: url(https://img.freepik.com/premium-photo/dark-oxford-blue-abstract-creative-background-design_851755-195326.jpg?size=626&ext=jpg&ga=GA1.1.769684809.1720083016&semt=ais_user);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Navigation */
+.navbar{
+    font-size: 1.2rem;
+    font-family: "Inter", sans-serif;
+    color: aliceblue;
+    backdrop-filter: blur(100px);
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.navbar a,i{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+.navbar li{
+    color: transparent;
+}
+.logo{
+    width: 140px;
+    height: 70px;
+    cursor: pointer;
+}
+.profile{
+    width: 40px;
+    border: 3px solid aliceblue;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 260px;
+}
+
+/* Movie */
+.new{
+    border: 3px solid aliceblue;
+    border-radius: 5px;
+    width: 1400px;
+    height: 300px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out .3s;
+}
+.new:hover{
+    width: 1400px;
+    height: 320px;
+}
+
+/* Studios */
+.media{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.channel{
+    width: 240px;
+    height: 140px;
+    border: 0.5px solid aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out .3s;
+}
+.channel:hover{
+    width: 260px;
+    height: 160px;
+}
+
+/* Movies */
+.old{
+    width: 315px;
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out .3s;
+}
+.old:hover{
+    width: 335px;
+}
+h1{
+    color: aliceblue;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: "Inter", sans-serif;
+}

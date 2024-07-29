@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"/>
+    <script>
+        function navigate(){
+            window.location=""
+        }
+    </script>
+</head>
+<body class="body">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
+        alt="logo" class="logo"></li>
+        <li><select class="language">
+            <option>English</option>
+            <option>Hindi</option>
+            <option>Japanese</option>
+        </select></li>
+        <button type="submit" class="sign" onclick="window.location='SignIn.html'">Sign in</button>
+    </nav>
+
+    <h1>Unlimited Movies TV, Shows and More.</h1>
+    <h3>Watch anywhere and canel anytime.<br>
+    Ready to watch? Enter your email to create or restart<br>your membership.</h3>
+     
+    <!-- LogIn -->
+    <nav>
+    <input type="email" placeholder="Email Address" id="email" required>
+    <button class="login" onclick="navigate()">Get Started ></button>
+    </nav>
+
+</body>
+</html>

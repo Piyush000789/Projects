@@ -1,0 +1,91 @@
+.body{
+    background-image: url(https://repository-images.githubusercontent.com/299409710/b42f7780-0fe1-11eb-8460-e459acd20fb4);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    width: 200px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+/* SignIn */
+.box{
+    border: 1px solid white;
+    width: 325px;
+    height: 500px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.687);
+    display: table;
+    margin-left: 35%;
+    margin-top: 80px;
+}
+h1{
+    color: white;
+    font-size: 2rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.inputdetail{
+    width: 275px;
+    height: 25px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0.1 solid;
+    color:white;
+    background-color: rgba(47, 47, 47, 0.286);
+    font-size: 1.2rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.login{
+    width: 310px;
+    height: 45px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    background-color: #dc030f;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.option{
+    color: rgba(245, 245, 245, 0.4);
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.code{
+    width: 310px;
+    height: 45px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    background-color: rgba(103, 103, 103, 0.454);
+    font-size: 1.1rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.password{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 1.1rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+/* SignUp */
+.remember{
+    color: rgba(245, 245, 245, 0.506);
+    margin-left: 80px;
+    font-size: 1.1rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.signup{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}

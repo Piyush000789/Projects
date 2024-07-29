@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in Page</title>
+    <link rel="stylesheet" href="style2.css">
+    <script>
+        function navigate(){
+            window.location=""
+        }
+    </script>
+</head>
+<body class="body">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
+    alt="logo" class="logo">
+
+    <!-- SignIn -->
+    <div class="box">
+        <h1>Sign In</h1>
+        <li><input type="email" placeholder="Email Address" id="email" class="inputdetail" required></li>
+        <li><input type="password" placeholder="Password" id="password" class="inputdetail" required></li>
+        <li><button type="submit" class="login" onclick="navigate()">Sign In</button></li>
+
+        <p class="option">OR</p>
+
+        <button class="code">Use a sign-in code</button>
+        <li><a href="#" class="password">Forgotten password?</a></li>
+        <br>
+        <label class="remember">
+        <input type="checkbox" style="width: 20px; height: 20px;">Remember me
+        </label> 
+        
+        <!-- SignUp -->
+        <p class="option">New to Netflix?<a href="#" class="signup" onclick="window.location='Netflix.html'"> Sign Up now.</a></p>
+    </div>
+</body>
+</html>
