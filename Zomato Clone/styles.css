@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* This is section 1 */
+.section1{
+   background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+   background-position: center;
+   background-size: cover;
+   min-height: 50vh;
+}
+/* Navbar Links */
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 30px;
+}
+.navbar a:first-child{
+    margin-right: 200px;
+}
+.navbar .user_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 100%;
+    display: none;
+}
+/* Conatiner */
+.section1_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.section1_container .logo{
+    width: 300px;
+    height: 70px;
+    margin-top: 40px;
+}
+.section1_container h1{
+    color: white;
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-top: 40px;
+}
+/* Search Box */
+.section1_input_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 15px;
+    gap: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.section1_input_box .input_location{
+    border: none;
+    border-right: 2px solid gray;
+    width: 30%;
+    font-size: 1.2rem;   
+}
+.section1_input_box .input_search{
+    border: none;
+    width: 70%;
+    font-size: 1.2rem;
+}
+
+/* This is section 2 */
+.section2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 80px;
+    gap: 20px;
+}
+/* Suggestions */
+.section2 .offers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1px solid;
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    background-color: rgba(245, 245, 245, 0.2);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+}
+.section2 .offers:hover{
+    transform: scale(1.05);
+}
+.section2 .offers img{
+    width: 100%;
+    height: 200px;
+}
+.section2 .offers h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+/* This is section 3 */
+.section3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 120px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding: 20px;
+    gap: 15px;
+}
+.explore{
+    width: 100%;
+    padding: 10px;
+}
+.explore h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+.explore a{
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 1.1rem;
+    margin-left: 270px;
+}
+/* Collections */
+.section3 .collections{
+    display: flex;
+    flex-direction: column-reverse;
+    /* align-items: center; */
+    border: 0.1px solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    background-color: rgba(245, 245, 245, 0.2);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+.collections img{
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.collections h3{
+    position: absolute;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-left: 15px;
+}
+
+/* this is section 4 */
+.section4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 120px;
+    gap: 30px;
+}
+.section4_heading{
+    width: 90%;
+    padding: 10px;
+}
+.section4_heading h1{
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 450;
+}
+/* Localities */
+.section4 .localities{
+    border:0.5px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+}
+.localities h3, h4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.more_localities{
+    border:0.5px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+/* this is section 5 */
+.section5{
+    width: 100%;
+    background-color: rgb(250, 235, 215);
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    font-family: "Montserrat", sans-serif;
+}
+/* Mobile Banner */
+.section5 .left{
+    width: 20%;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.left img{
+    width: 250px;
+    margin-top: 20px;
+}
+/* Zomato app */
+.section5 .right{
+    width: 35%;
+}
+.right h1{
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.right h2{
+    font-size: 1.1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.right .section5_input_radio{
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+.right .section5_input_id{
+    width: 280px;
+    height: 50px;
+    border: 0.5px solid gray;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.right .share_button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(239, 79, 95);
+    margin-top: 20px;
+}
+.right img{
+    width: 140px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+/* this is section 6 */
+.section6{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 150px;
+    font-family: "Montserrat", sans-serif;
+}
+.section6 h1{
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.suggested_places{
+    border:0.5px solid gray;
+    border-radius: 10px;
+    width: 95%;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-top: 30px;
+}
+
+
+/* If screen size is from 0-600px */
+@media only screen and (max-width:600px){
+    
+    /* this is section 1 */
+    .section1{
+        min-height: 60vh;
+    }
+    .navbar .user_icon{
+        display: flex;
+    }
+    .navbar a{
+        display: none;
+    }
+    .section1_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section1_container .logo{
+        width: 180px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .section1_container h1{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .section1_input_box{
+        max-width: 400px;
+        padding: 10px;
+    }
+    .section1_input_box .input_location,
+    .section1_input_box .input_search{
+        font-size: 1rem;
+    }
+
+    /* this is section 2 */
+    .section2{
+        margin-left: 30px;
+        gap: 10px;
+    }
+    .section2 .offers{
+        width: 240px;
+        height: 180px;
+    }
+    .section2 .offers h2{
+        font-size: 1rem;
+    }
+    .section2 .offers img{
+        width: 100%;
+        height: 160px;
+    }
+
+    /* this is section 3 */
+    .section3{
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .explore h1{
+        font-size: 1.8rem;
+    }
+    .explore a{
+        margin-left: 20px;
+        font-size: 1rem;
+    }
+    .section3 .collections{
+        width: 220px;
+        height: 250px;
+    }
+    .collections h3{
+        font-size: 0.8rem;
+    }
+
+    /* this is section 4 */
+    .section4{
+        margin-top: 30px;
+        margin-left: 50px;
+        gap: 20px;
+    }
+    .section4_heading h1{
+        font-size: 1.8rem;
+    }
+    .section4 .localities{
+        width: 230px;
+    }
+    .more_localities{
+        width: 480px;
+    }
+
+    /* this is section 5 */
+    .section5{
+        margin-top: 40px;
+    }
+    .section5 .left{
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 220px;
+    }
+    .left img{
+        width: 220px;
+        margin-top: 70px;
+    }
+    .section5 .right{
+        margin-top: 20px;
+        width: 300px;
+    }
+    .right h1{
+        font-size: 1.8rem;
+    }
+    .right h2{
+        font-size: 1rem;
+    }
+    .right .section5_input_id{
+        width: 220px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    .right .share_button{
+        width: 120px;
+        height: 40px;
+        font-size: 0.8rem;
+    }
+    .right img{
+        width: 120px;
+        margin-top: 10px;
+    }
+
+    /* this is section 6 */
+    .section6{
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .section6 h1{
+        font-size: 1.8rem;
+    }
+    .suggested_places{
+        width: 500px;
+        margin-top: 20px;
+    }
+}
